@@ -391,6 +391,12 @@
 
 
 
+
+
+
+// *The answers to the questions are here*
+
+// 1.
 // let user = {
 //   name: prompt("what's your name?"),
 //   surname: prompt("what's your family?"),
@@ -399,22 +405,22 @@
 // console.log(user)
 
 
-
+// 2.
 // let student = {
 //   name: "john",
 //   surname: "doe",
 //   age: 18,
 // }
 
-// function getName(lst){
-//   for(let key in lst){
+// function getName(data){
+//   for(let key in data){
 //     console.log(key);
 //   }
 // }
 // getName(student);
 
 
-
+// 3. x
 // let user = {
 //   isAdmin: true,
 //   hasAcsses: true,
@@ -440,7 +446,7 @@
 // hasAcsses(user2);
 
 
-
+// 4.
 // let user = {
 //   isAdmin: true,
 //   hasAcsses: true,
