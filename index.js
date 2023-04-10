@@ -397,10 +397,13 @@
 // *The answers to the questions are here*
 
 // 1.
+// let a = prompt("what's your name?");
+// let b = prompt("what's your family?");
+// let c = prompt("how old are you?");  
 // let user = {
-//   name: prompt("what's your name?"),
-//   surname: prompt("what's your family?"),
-//   age: prompt("how old are you?")
+//   name: a,
+//   surname: b, 
+//   age: c,
 // }
 // console.log(user)
 
@@ -434,8 +437,8 @@
 
 // function hasAcsses(data){
 //   for(let key in data){
-//     if (typeof data[key] === false){
-//       delete user.hasAcsses
+//     if (data.isAdmin === false){
+//       delete data.hasAcsses
 //     }
 //     console.log(key)
 //   }
@@ -456,16 +459,33 @@
 
 // function calcNum(data){
 //   for(let key in data){
-//     if(data[key] != null){
 //       counter++;
-//     }
+    
 //     }
 //     return counter;
 //  }
 
 // console.log(calcNum(user))
 
+// *4.
 
+let a = {
+  name: hossein,
+  surName: hamidi,
+  age: 26,
+}
+let b = {
+  name: ali,
+  surName: hamidi,
+  age: 26,
+}
 
-
-
+// function isEqual(a, b){
+//   for(let key in a){
+//     if()
+//   }
+// }
+function objProperty(data){
+  for(let key in data) return data[key];
+}
+console.log(isProperty(b))
