@@ -1,12 +1,54 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./index.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
 </head>
 <body>
-    <p>hi</p>
+  <div class="main">
+ <div class="form">
+  <label for="name">Name:</label>
+  <div class="show-error-1">
+    <input type="text" name="Name" id="name-input">
+  </div>
+  <label for="family">Family:</label>
+  <div class="show-error-2">
+    <input type="text" name="family" id="family-input">
+  </div>
+  <label for="age">Age:</label>
+  <input type="number" name="age" id="age-input">
+  <label for="city"></label>
+  <select name="city" id="city-input">
+    <option value="-">Select City:</option>
+    <option value="Tehran">Tehran</option>
+    <option value="Isfehan">Isfehan</option>
+    <option value="Shiraz">Shiraz</option>
+    <option value="Ahwaz">Ahwaz</option>
+    <option value="Alborz">Alborz</option>
+    <option value="Qom">Qom</option>
+    <option value="Sari">Sari</option>
+    <option value="Rasht">Rasht</option>
+    <option value="Bandar Abbas">Bandar Abbas</option>
+    <option value="Kerman">Kerman</option>
+    <option value="Ardeil">Ardeil</option>
+    <option value="Tabriz">Tabriz</option>
+  </select>
+  <label for="street">Street:</label>
+  <input type="text" name="street" id="street-input">
+ </div>
+  <div class="add">
+    <button class="add-button">
+      add
+    </button>
+  </div>
+  <div class="outer-card">
+    <!-- <div class="card">
+
+    </div> -->
+  </div>
+ </div>
+  <script src="./index.js"></script>
 </body>
 </html>

@@ -1,491 +1,211 @@
-"use strict"
-// let userName = prompt("whats your name?")
-// alert(userName)
-
-// let isUserSingle = confirm('are you single?')
-// alert(isUserSingle);
-// let IsUserSingle = false;
-// console.log(typeof IsUserSingle,IsUserSingle);
-// console.log(typeof String(IsUserSingle),String(IsUserSingle));
-// let nameOfJavaScript = prompt("whats the official name of javascript?")
-// if(nameOfJavaScript == "ECMAScript"){
-//     alert("Right!")
-// }else{
-//     alert("you dont know? 'ECMAScript'")
-// }
-// let value = prompt("enter your number")
-// if(value > 0){
-//     alert(1)
-// }else if(value < 0){
-//     alert(-1)
-// }else{
-//     alert(0)
-// }
-// let Result = a + b < 4 ? "Below" : "Over";
-// let message = (login == "Employee") ? "hello" : (login == "Director") ? "Greetings" : (login == "") ? "No login" : "";
-// let age = prompt("enter your age")
-// age >= 14 && age <= 90 ? alert("true") : alert("false")
-// let age = prompt("enter your age")
-// !(age >= 14 && age <= 90) ? alert("true") : alert("false")
-// let age = prompt("enter your age")
-// age >= 14 && age <= 90 ? alert("false") : alert("true")
-// let userName = prompt("who's there?")
-// console.log(userName,'========user');
-// if (userName == "admin"){
-//     let password = prompt("password?")
-//     if (password == "themaster"){
-//         alert("welcome!")
-//     }else if(password === '' || password === null){
-//         alert("canceled")
-//     }else {
-//         alert("wrong password")
-
-//     }
-// }else if(userName === null || userName === '') {
-//     alert("canceled")
-// }else{
-//     alert("i don't know you")
-// }
-// if (age >= 14 && )4
-// for( i = 2 ; i < 10 ; i++){
-//     if(i % 2 == 0)
-//     alert(i)
-// }
-// let i = 0
-// while(i < 3){
-//     alert ( "number '${i}'")
-//     i++
-// }
-// let userInputNumber = prompt("enter your number")
-// while(userInputNumber <= 100 && userInputNumber){
-//     userInputNumber = prompt("enter your number")
-// }
-// alert(userInputNumber)
-// for(let n ; n %)
-// for(i = 2 ; i <= 10 ; i++){
-//     if(i % 2 == 0) console.log(i)
-// }
-
-// for(i = 2 ; i <= 10 ; i++){
-//  if (i % 2 == 0){
-//     alert(n);
-//  }
-// }
-
-// if(browser == "edge"){
-//     alert( "You've got the Edge!" );
-// }else if(browser == "chrome" || browser == "firefox" || browser == "safari" || browser == "opera" ){
-//     alert("Okay we support these browsers too")
-// }else{
-//     alert("We hope that this page looks ok!")
-// }
-// let a = +prompt('a?', '');
-// switch(a){
-//     case 0 :
-//         alert(0);
-//         break;
-//     case 1:
-//         alert(1);
-//         break;
-//     case 2:
-//     case 3:
-//         alert("2,3");
-//         break;
-//     default:
-//         break;
-// }
-// function checkAge(age){
-//     age > 18 ? true : confirm("did parents allow you?");
-// }
-
-// function min(a,b){
-//     if(a > b){
-//     return b;
-//     }
-//     return a;
-// }
-
-// function pow(x,n){
-//     if(x && n >= 1){
-//         return x**n;
-//     }
-// }
-
-// function sum(){
-//     let a = prompt("enter your first number");
-//     let b = prompt("enter your second number");
-//     return a + b;
-// }
-// alert( sum() );
-
-// let a = prompt('enter your first number?');
-// let b = prompt('enter your second number?');
-
-// function sum(a,b) {
-//     alert(a + b)
-// }
-
-// sum(a,b)
-
-// function sum() {
-//   let a = +prompt("enter your first number?");
-//   let b = +prompt("enter your second number?");
-//   alert(a + b);
-// }
-
-// sum()
-
-// let a = prompt('enter your first number?');
-// let b = prompt('enter your second number?');
-// let sum = (a,b) =>alert(+a + +b);
-// sum(a,b)
-// for(let i = 0 ; i < 15 ; i++){
-//     alert(i)
-// }
-
-
-
-// let userNumberInput = +prompt("how old are you?")
-// switch (userNumberInput){
-//     case 18:
-//         alert("you are adult");
-//         break;
-//     case 12:
-//     case 13:
-//     case 14:
-//         alert("you are child");
-//         break;
-//     default:
-//         +prompt("how old are you?");  
-// }
-
-
-
-
-
-
-
-
-// let userName = prompt("enter your name")
-// let sirName = prompt("enter your sir name")
-// function displayUserName(userName,sirName){
-//     alert(userName+ " " +sirName)
-// }
-// // debugger;
-// displayUserName(userName,sirName)
-
-
-
-//*** ex1
-
-
-
-
-// let mathScore = +prompt("enter your math score")
-// let sienceScore = +prompt("enter your sience score")
-// let sportScore = +prompt("enter your sport score")
-// function calcGda(mathScore,sienceScore,sportScore){
-//     let gda = (mathScore + sienceScore + sportScore) / 3;
-//     if(gda >= 18){
-//         alert("+A");
-//     } else if (gda < 18 && gda >= 16){
-//         alert("B");
-//     }else if (gda < 16 && gda >= 14){
-//         alert("C");
-//     }else if (gda < 14 && gda >= 12){
-//         alert("D");
-//     }else{
-//         alert("field")
-//     }
-
-
-//     // ***this not posible
-//     // switch(gda){
-//     //     case 20:
-//     //     case 19:
-//     //     case 18:
-//     //         alert("+A");
-//     //         break;
-//     //     case 17:
-//     //         case
-//     //         alert("B");
-//     //         break;
-//     //     case gda < 16 && gda >= 14:
-//     //         alert("C");
-//     //         break;
-//     //     case gda <   
-//     // }
-// }
-// calcGda(mathScore,sienceScore,sportScore)
-
-
-
-// let user = {};
-// user.name = "john";
-// user.surname = "smith";
-// user.name = "pete"
-// delete user.name;
-
-
-
-// let schedule = {};
-// function isEmpty(obj){
-//     for(let key in obj){
-//      return false;
-//     }
-//     return true;
-// }
-// // isEmpty(schedule)
-// console.log(isEmpty(schedule))
-
-// schedule["8:30"] = "get up";
-
-// console.log(isEmpty(schedule))
-
-
-// let salaries = {
-//     John: 100,
-//     Ann: 160,
-//     Pete: 130,
-//   }
-// let age ={
-//     john:30,
-//     ann:20,
-// }
-// function calcSum(value){
-//     let sum = 0
-//     for(let person in value){
-//             sum = sum + value[person]
-//     }
-//     return sum;
-// }
-// console.log(value)
-// console.log(calcSum(salaries))
-
-// let menu = {
-//     width: 200,
-//     height: 300,
-//     title: "My menu"
-//   };
-//   function multiply(value){
-//     for(let key in value) {
-//         if(typeof value[key] === "number" ){
-//             value[key] = value[key] * 2;
-//         }
-
-//     }
-//   }
-//   multiply(menu);
-//   console.log(menu)
-
-// const user = {
-//     name:'Ali',
-//     age:30,
-//     isAdmin:false,
-//     surname:'aaa'
-// }
-// for(let key in user){
-//     // console.log(user,'========key');
-//     console.log(user[key],'----------value');
-
-// }
-
-
-// let schedule = {};
-// function isEmpty(value){
-//     for(let key in value){
-//             return false;
-//     }
-//     return true;
-// }
-// console.log(isEmpty(schedule))
-
-
-
-
-// let salaries = {
-//     John: 100,
-//     Ann: 160,
-//     Pete: 130,
-//   }
-//   function calcSum(value){
-//     let sum = 0;
-//     for(let key in value){
-//      sum = sum + value[key];
-//     }
-//     return sum;
-//   }
-//   console.log(calcSum(salaries))
-
-
-  // let menu = {
-  //   width: 200,
-  //   height: 300,
-  //   title: "My menu",
-  // };
-  // function multiplyNumberic(obj){
-  //   for(let key in obj){
-  //       if(typeof obj[key] === "number"){
-  //          obj[key] =   obj[key] * 2;
-  //       }
-  //   }
-  // }
-  // multiplyNumberic(menu)
-  // console.log(menu)
-//   function pow(x, n) {
-//     let result = 1;
-
-//      for (let i = 0; i < n; i++) {
-//       result *= x;
-//     }
-//      return result;
-// }
-
-// let x = prompt("x?", '');
-// let n = prompt("n?", '');
-
-// if ( n <= 0) {
-//   alert(`Power ${n} is not supported, 
-//   please enter an integer number greater than zero`);
-// } else {
-//   alert( pow(x,n) )
-// }
-
-
-// let a = +prompt("enter your first number");
-// let b = +prompt("enter your second number");
-
-// function pow(a, b){
-//   if(b < 0){
-//     alert("your number is not intiger");
-//     return;
-//   }
-//   return a ** b;
-// }
-// alert(pow(a, b));
-
-
-
-
-
-
-// ****** question
-// let n = +prompt("enter your number")
-
-// function showPrimes(n) {
-
-//   for (let i = 2; i < n; i++) {
-//     if (!isPrime(i)) continue;
-
-//     alert(i);
-//   }
-// }
-
-// function isPrime(n) {
-//   for (let i = 2; i < n; i++) {
-//     if (n % i == 0) return false;
-//   }
-
-//   return true;
-// }
-
-
-
-
-
-
-// *The answers to the questions are here*
-
-// 1.
-// let a = prompt("what's your name?");
-// let b = prompt("what's your family?");
-// let c = prompt("how old are you?");  
-// let user = {
-//   name: a,
-//   surname: b, 
-//   age: c,
-// }
-// console.log(user)
-
-
-// 2.
-// let student = {
-//   name: "john",
-//   surname: "doe",
-//   age: 18,
-// }
-
-// function getName(data){
-//   for(let key in data){
-//     console.log(key);
-//   }
-// }
-// getName(student);
-
-
-// 3. x
-// let user = {
-//   isAdmin: true,
-//   hasAcsses: true,
-//   name: "john",
-// }
-// let user2 = {
-//   isAdmin: false,
-//   hasAcsses: true,
-//   name: "john",
-// }
-
-// function hasAcsses(data){
-//   for(let key in data){
-//     if (data.isAdmin === false){
-//       delete data.hasAcsses
-//     }
-//     console.log(key)
-//   }
-// }
-
-
-// hasAcsses(user)
-// hasAcsses(user2);
-
-
-// 4.
-// let user = {
-//   isAdmin: true,
-//   hasAcsses: true,
-//   name: "john",
-// }
-// let counter = 0;
-
-// function calcNum(data){
-//   for(let key in data){
-//       counter++;
-    
-//     }
-//     return counter;
-//  }
-
-// console.log(calcNum(user))
-
-// *4.
-
-let a = {
-  name: hossein,
-  surName: hamidi,
-  age: 26,
+let outerCard = document.querySelector(".outer-card");
+const addButton = document.querySelector(".add-button");
+const nameInput = document.querySelector("#name-input");
+const familyInput = document.querySelector("#family-input");
+const ageInput = document.querySelector("#age-input");
+const cityInput = document.querySelector("#city-input");
+const streetInput = document.querySelector("#street-input");
+const deletebutton = document.querySelector(".delete-button");
+const showError1 = document.querySelector(".show-error-1")
+const showError2 = document.querySelector(".show-error-2")
+const errorText1 = document.createElement("p")
+const errorText2 = document.createElement("p")
+window.addEventListener("load", () => {
+  readData();
+});
+addButton.addEventListener("click", () => {
+  getValues();
+  clearInputs()
+});
+nameInput.addEventListener("input", ()=>{
+  nameCheckValidation()
+})
+familyInput.addEventListener("input",()=>{
+  familyCheckValidation()
+})
+function nameCheckValidation(){
+  if(nameInput.value.trim() !== null){
+    addButton.disabled = false
+    errorText1.innerHTML = ""
+
+  }else{
+    addButton.disabled = true
+
+  }
 }
-let b = {
-  name: ali,
-  surName: hamidi,
-  age: 26,
+function familyCheckValidation(){
+  if(familyInput.value.trim() !== null){
+    addButton.disabled = false
+    errorText2.innerHTML = ""
+
+  }else{
+    addButton.disabled = true
+
+  }
+}
+const data = [
+  {
+    name: "test 1",
+    family: "test 1 family",
+    address: {
+      city: "tehran",
+      street: "satarkhan",
+    },
+    age: 31,
+  },
+  {
+    name: "test 2",
+    family: "test 2 family",
+    address: {
+      city: "tehran",
+      street: "satarkhan",
+    },
+    age: 31,
+  },
+  {
+    name: "test 3",
+    family: "test 3 family",
+    address: null,
+    age: null,
+  },
+];
+function createCard(user) {
+  let card = document.createElement("div");
+  card.classList.add("card");
+  let name = document.createElement("div");
+  name.classList.add("name");
+  let namesLabel = document.createElement("p");
+  namesLabel.innerHTML = "name:";
+  let userName = document.createElement("p");
+  userName.innerHTML = user.name;
+
+  name.appendChild(namesLabel);
+  name.appendChild(userName);
+  card.appendChild(name);
+
+  let family = document.createElement("div");
+  family.classList.add("family");
+  let familysLabel = document.createElement("p");
+  familysLabel.innerHTML = "family:";
+  let userFamily = document.createElement("p");
+  userFamily.innerHTML = user.family;
+  family.appendChild(familysLabel);
+  family.appendChild(userFamily);
+  card.appendChild(family);
+
+  let address = document.createElement("div");
+  address.classList.add("address");
+  let addresssLabel = document.createElement("p");
+  addresssLabel.innerHTML = "adress:";
+  let userAddress = document.createElement("p");
+  userAddress.innerHTML = `${user.address?.city ?? "-"} - ${
+    user.address?.street ?? "-"
+}`;
+  address.appendChild(addresssLabel);
+  address.appendChild(userAddress);
+  card.appendChild(address);
+  let age = document.createElement("div");
+  age.classList.add("age");
+  let agesLabel = document.createElement("p");
+  agesLabel.innerHTML = "age:";
+  let userAge = document.createElement("p");
+  userAge.innerHTML = user.age ?? "-";
+  age.appendChild(agesLabel);
+  age.appendChild(userAge);
+  card.appendChild(age);
+
+  let deletebutton = document.createElement("button");
+  deletebutton.classList.add("delete-button");
+  deletebutton.innerHTML = "delete";
+  card.appendChild(deletebutton);
+  deletebutton.addEventListener("click", (event) => {
+    // function deleteElement(){
+    //     event.target.parentElement.remove()
+    // }
+    deleteCard(user, event);
+  });
+  outerCard.appendChild(card);
 }
 
-// function isEqual(a, b){
-//   for(let key in a){
-//     if()
-//   }
-// }
-function objProperty(data){
-  for(let key in data) return data[key];
+function getValues() {
+  let name = nameInput.value;
+  let family = familyInput.value;
+  if (!(name && family)) {
+    checkForEmptyName()
+  }else{
+
+    let age = ageInput.value;
+    let city = cityInput.value;
+    let street = streetInput.value;
+    let address = {
+      city: city,
+      street: street,
+    };
+    let newData = {
+      name: name,
+      family: family,
+      address: address,
+      age: age,
+    }; 
+    let localData = JSON.parse(localStorage.getItem("data"))
+    console.log(localData,'==========');
+    if(localData){
+      localData.push(newData)
+      let stringData = JSON.stringify(localData);
+      localStorage.setItem("data", stringData);
+      createCard(newData)
+    }else{
+      console.log(data)
+      data.push(newData)
+      let stringData = JSON.stringify(data)
+      localStorage.setItem("data",stringData)
+      createCard(newData)
+    }
+  }
 }
-console.log(isProperty(b))
+function readData() {
+  let localData = localStorage.getItem("data");
+  let responseData = data;
+  let usersData = JSON.parse(localData) ?? responseData;
+  usersData.forEach((item) => {
+    createCard(item);
+  });
+}
+
+function deleteCard(user) {
+
+  let localData = localStorage.getItem("data");
+  let responseData = data;
+  let userData = JSON.parse(localData) ?? responseData;
+  // console.log(userData)
+  let filtredUsers = userData.filter((item) => item.name !== user.name);
+  localStorage.setItem("data", JSON.stringify(filtredUsers));
+  event.target.parentElement.remove()
+//   console.log(filtredUsers);
+}
+
+
+function clearInputs(){
+  nameInput.value = ""
+  familyInput.value= ""
+  ageInput.value = ""
+  cityInput.value = "-"
+  streetInput.value = ""
+}
+
+
+
+function checkForEmptyName(){
+ addButton.disabled = true
+ errorText1.innerHTML = "*پر کردن این فیلد الزامیست!"
+ errorText2.innerHTML = "*پر کردن این فیلد الزامیست!"
+  showError1.appendChild(errorText1)
+  showError2.appendChild(errorText2)
+}
+
+// function getDataFromLocalStorage(){
+//   let localData = localStorage.getItem("data");
+//   let responseData = data;
+//   let userData = JSON.parse(localData) ?? responseData;
+// }
+// getDataFromLocalStorage()
